@@ -1,0 +1,432 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "n7jgVAEZq5IxzhixoMG960KoxOA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "lSxwxmUAxAXreiDzGityBOfu9Eg",
+      "id": "RlPNh_PBZb4",
+      "snippet": {
+        "publishedAt": "2023-06-30T04:00:08Z",
+        "channelId": "UCxE5jEls-T0QtlTHT8lI1lw",
+        "title": "Olivia Rodrigo - vampire (Official Music Video)",
+        "description": "Listen to vampire out now: https://OliviaRodrigo.lnk.to/vampire\n \nStore: https://OliviaRodrigo.lnk.to/store\n \nCreate a Short to vampire: https://yt.be/vampireOR2\n \nFollow Olivia Rodrigo:\nInstagram: https://instagram.com/oliviarodrigo\nTwitter: https://twitter.com/Olivia_Rodrigo\nFacebook: https://www.facebook.com/OliviaRodrigoOfficial/\nYouTube: https://www.youtube.com/@OliviaRodrigo\nTikTok: https://tiktok.com/@livbedumb\nDiscord: https://discord.gg/livieshq\n \nPresave GUTS: https://OliviaRodrigo.lnk.to/GUTS\n \nLYRICS\n \nhate to give the satisfaction asking how you’re doing now\nhow’s the castle built off people you pretend to care about\njust what you wanted\nlook at you, cool guy, you got it\n \ni see the parties and the diamonds sometimes when i close my eyes\nsix months of torture\nthat you sold as some forbidden paradise\ni loved you truly\ngotta laugh at the stupidity\n \ncuz i’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made\nme look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nevery girl i ever talked to told me you were bad, bad news\nyou called them crazy god i hate the way i called them crazy too\nyou’re so convincing\nhow do you lie without flinching\n(how do you lie, how do you lie, how do you lie)\n \noh, what a mesmerizing, paralyzing, fucked up little thrill\ncan’t figure out just how you do it and god knows i never will\nwent for me and not her\ncuz girls your age know better\n \ni’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made me look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nyou said it was true love\nbut wouldn’t that be hard\nyou can’t love anyone\ncuz that would mean you had a heart\ni tried you help you out\nnow i know that i can’t\ncuz how you think’s the kind of thing\ni’ll never understand\n \ni’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made me look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nCREDITS\n \nDirected by Petra Collins (IG: @petrafcollins)\nProduced by Tiffany Suh (IG: @tiffanysuh)\nProduction Supervising by Sina Pars (IG: @beingsinapars)\nProduction Coordinating by Nina Nwachukwu (IG: @ninamarien)\n1st AD - Mati Almanso (IG: @matinil)\nDP - Russ Fraser (IG: @russfraser)\nGaffner - Nick Durr (IG: @dicknurr)\nKey Grip - Luke Poole (IG: @lanative_grip)\nProduction Design by Nicholas des Jardins (IG: @nicholasdesjardins)\nStunt Coordinator - Pat Romano (IG: @romano_stunts)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RlPNh_PBZb4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RlPNh_PBZb4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RlPNh_PBZb4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RlPNh_PBZb4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RlPNh_PBZb4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OliviaRodrigoVEVO",
+        "tags": ["Olivia", "Rodrigo", "vampire", "Pop"],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Olivia Rodrigo - vampire (Official Music Video)",
+          "description": "Listen to vampire out now: https://OliviaRodrigo.lnk.to/vampire\n \nStore: https://OliviaRodrigo.lnk.to/store\n \nCreate a Short to vampire: https://yt.be/vampireOR2\n \nFollow Olivia Rodrigo:\nInstagram: https://instagram.com/oliviarodrigo\nTwitter: https://twitter.com/Olivia_Rodrigo\nFacebook: https://www.facebook.com/OliviaRodrigoOfficial/\nYouTube: https://www.youtube.com/@OliviaRodrigo\nTikTok: https://tiktok.com/@livbedumb\nDiscord: https://discord.gg/livieshq\n \nPresave GUTS: https://OliviaRodrigo.lnk.to/GUTS\n \nLYRICS\n \nhate to give the satisfaction asking how you’re doing now\nhow’s the castle built off people you pretend to care about\njust what you wanted\nlook at you, cool guy, you got it\n \ni see the parties and the diamonds sometimes when i close my eyes\nsix months of torture\nthat you sold as some forbidden paradise\ni loved you truly\ngotta laugh at the stupidity\n \ncuz i’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made\nme look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nevery girl i ever talked to told me you were bad, bad news\nyou called them crazy god i hate the way i called them crazy too\nyou’re so convincing\nhow do you lie without flinching\n(how do you lie, how do you lie, how do you lie)\n \noh, what a mesmerizing, paralyzing, fucked up little thrill\ncan’t figure out just how you do it and god knows i never will\nwent for me and not her\ncuz girls your age know better\n \ni’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made me look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nyou said it was true love\nbut wouldn’t that be hard\nyou can’t love anyone\ncuz that would mean you had a heart\ni tried you help you out\nnow i know that i can’t\ncuz how you think’s the kind of thing\ni’ll never understand\n \ni’ve made some real big mistakes\nbut you make the worst one look fine\ni should’ve known it was strange\nyou only come out at night\ni used to think i was smart\nbut you made me look so naive\nthe way you sold me for parts\nas you sunk your teeth into me, oh\nbloodsucker, famefucker\nbleeding me dry like a goddamn vampire\n \nCREDITS\n \nDirected by Petra Collins (IG: @petrafcollins)\nProduced by Tiffany Suh (IG: @tiffanysuh)\nProduction Supervising by Sina Pars (IG: @beingsinapars)\nProduction Coordinating by Nina Nwachukwu (IG: @ninamarien)\n1st AD - Mati Almanso (IG: @matinil)\nDP - Russ Fraser (IG: @russfraser)\nGaffner - Nick Durr (IG: @dicknurr)\nKey Grip - Luke Poole (IG: @lanative_grip)\nProduction Design by Nicholas des Jardins (IG: @nicholasdesjardins)\nStunt Coordinator - Pat Romano (IG: @romano_stunts)"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT4M5S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "regionRestriction": {
+          "blocked": ["BY", "IO", "KP", "RU", "SS"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "13340225",
+        "likeCount": "824598",
+        "favoriteCount": "0",
+        "commentCount": "44394"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "l9URwAJ0nNhBb-Y6vNy1F7ZvWpM",
+      "id": "kes2P4IC2bQ",
+      "snippet": {
+        "publishedAt": "2023-06-30T16:00:07Z",
+        "channelId": "UC4eYXhJI4-7wSWc8UNRwD4A",
+        "title": "Juvenile: Tiny Desk Concert",
+        "description": "NPR Music is celebrating Black Music Month with an array of brand new Tiny Desk concerts. Together, these artists represent the past, present and future of Black music. This month of carefully curated shows is a celebration of Black artists expressing themselves in ways we've never seen before, and of the Tiny Desk's unique way of showcasing that talent.\n\nBobby Carter | June 30, 2023\n\"WTF is a Tiny Desk and no!\" are the words that led to one of the most publicized journeys any musician has taken to get to NPR headquarters. That was Juvenile's response to Twitter user @theylovemyke's request for him to play a Tiny Desk concert back in April. His response ignited Black Twitter, launching a barrage of tweets and reposts of favorite performances at the Desk, as fans implored the \"T.C. soldier\" to reconsider. His viral reconsideration led to a few DMs, which led to a few phone calls, and the date was set. Juve, like some rappers in his class, had never heard of our little nook in Washington, D.C., but he soon found out.\n\nThe pressure to deliver was palpable in the planning stages but as the band was assembled, my expectations were exceeded. Tiny Desk alumni and New Orleans natives Trombone Shorty and Alvin Ford were brought into the fold. Another Tiny Desk vet from New Orleans, Jon Batiste, flew in from London just to be a part of the set. Juvenile sourced The Amours from right here in D.C. to handle background vocals, along with string players from the Louisiana Philharmonic for the grand finale. The architect of the Juvenile/Cash Money Records sound, DJ Mannie Fresh, became the glue that pieced it all together. The result was one of the most rambunctious experiences at the Desk. The Hot Boy coasted through highlights from a decades-long, groundbreaking career, concluding with a performance of \"Back That Azz Up,\" so exuberant that the audience demanded an encore and the band obliged. A Tiny Desk first.\n\nSET LIST\n\"Intro (feat. Mannie Fresh)\"\n\"400 Degreez (feat. Mannie Fresh)\"\n\"Bling Bling (feat. Mannie Fresh)\"\n\"Ha\"\n\"Set It Off\"\n\"Slow Motion\"\n\"Rodeo (feat. The Amours)\"\n\"I Need A Hot Girl (feat. Mannie Fresh)\"\n\"Project Bitch (feat. Mannie Fresh)\"\n\"Back That Azz Up (feat. Mannie Fresh)\"\n\nMUSICIANS\nJuvenile: vocals\nMannie Fresh: vocals, effects, keys\nAlvin Ford: music director/drums\nJosh Connelly: guitar\nDJ Raymond: bass\nBrandon Butler: keys\nBK Jackson: saxophone\nTrombone Shorty: trombone\nKevin Woods: trumpet\nJon Batiste: melodica\nJakiya Ayanna: vocals\nShaina Aisha: vocals\nHannah Yim: violin\nJake Fowler: cello\n\nTINY DESK TEAM\nProducer: Bobby Carter\nDirector/Editor: Joshua Bryant\nAudio Engineer: Josh Rogosin\nCreative Director: Bob Boilen\nVideographers: Joshua Bryant, Kara Frame, Maia Stern, Sofia Seidel, Michael Zamora\nAudio Assistant: Kwesi Lee\nProduction Assistant: Ashley Pointer\nTiny Desk Team: Suraya Mohamed, Hazel Cills\nPhotographer: Catie Dull\nVP, Visuals and Music: Keith Jenkins\nSenior VP, Programming: Anya Grundmann\n\n#tinydesk #BMMxTDC #juvenile",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kes2P4IC2bQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kes2P4IC2bQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kes2P4IC2bQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kes2P4IC2bQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kes2P4IC2bQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "NPR Music",
+        "tags": ["NPR", "NPR Music", "National Public Radio", "Live", "Performance", "tiny desk", "tiny desk concert", "tony desk", "tiny concert"],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Juvenile: Tiny Desk Concert",
+          "description": "NPR Music is celebrating Black Music Month with an array of brand new Tiny Desk concerts. Together, these artists represent the past, present and future of Black music. This month of carefully curated shows is a celebration of Black artists expressing themselves in ways we've never seen before, and of the Tiny Desk's unique way of showcasing that talent.\n\nBobby Carter | June 30, 2023\n\"WTF is a Tiny Desk and no!\" are the words that led to one of the most publicized journeys any musician has taken to get to NPR headquarters. That was Juvenile's response to Twitter user @theylovemyke's request for him to play a Tiny Desk concert back in April. His response ignited Black Twitter, launching a barrage of tweets and reposts of favorite performances at the Desk, as fans implored the \"T.C. soldier\" to reconsider. His viral reconsideration led to a few DMs, which led to a few phone calls, and the date was set. Juve, like some rappers in his class, had never heard of our little nook in Washington, D.C., but he soon found out.\n\nThe pressure to deliver was palpable in the planning stages but as the band was assembled, my expectations were exceeded. Tiny Desk alumni and New Orleans natives Trombone Shorty and Alvin Ford were brought into the fold. Another Tiny Desk vet from New Orleans, Jon Batiste, flew in from London just to be a part of the set. Juvenile sourced The Amours from right here in D.C. to handle background vocals, along with string players from the Louisiana Philharmonic for the grand finale. The architect of the Juvenile/Cash Money Records sound, DJ Mannie Fresh, became the glue that pieced it all together. The result was one of the most rambunctious experiences at the Desk. The Hot Boy coasted through highlights from a decades-long, groundbreaking career, concluding with a performance of \"Back That Azz Up,\" so exuberant that the audience demanded an encore and the band obliged. A Tiny Desk first.\n\nSET LIST\n\"Intro (feat. Mannie Fresh)\"\n\"400 Degreez (feat. Mannie Fresh)\"\n\"Bling Bling (feat. Mannie Fresh)\"\n\"Ha\"\n\"Set It Off\"\n\"Slow Motion\"\n\"Rodeo (feat. The Amours)\"\n\"I Need A Hot Girl (feat. Mannie Fresh)\"\n\"Project Bitch (feat. Mannie Fresh)\"\n\"Back That Azz Up (feat. Mannie Fresh)\"\n\nMUSICIANS\nJuvenile: vocals\nMannie Fresh: vocals, effects, keys\nAlvin Ford: music director/drums\nJosh Connelly: guitar\nDJ Raymond: bass\nBrandon Butler: keys\nBK Jackson: saxophone\nTrombone Shorty: trombone\nKevin Woods: trumpet\nJon Batiste: melodica\nJakiya Ayanna: vocals\nShaina Aisha: vocals\nHannah Yim: violin\nJake Fowler: cello\n\nTINY DESK TEAM\nProducer: Bobby Carter\nDirector/Editor: Joshua Bryant\nAudio Engineer: Josh Rogosin\nCreative Director: Bob Boilen\nVideographers: Joshua Bryant, Kara Frame, Maia Stern, Sofia Seidel, Michael Zamora\nAudio Assistant: Kwesi Lee\nProduction Assistant: Ashley Pointer\nTiny Desk Team: Suraya Mohamed, Hazel Cills\nPhotographer: Catie Dull\nVP, Visuals and Music: Keith Jenkins\nSenior VP, Programming: Anya Grundmann\n\n#tinydesk #BMMxTDC #juvenile"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT28M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "AF",
+            "BD",
+            "BH",
+            "BY",
+            "CD",
+            "CG",
+            "CM",
+            "CN",
+            "CU",
+            "EG",
+            "ER",
+            "ET",
+            "GE",
+            "IQ",
+            "IR",
+            "KH",
+            "KP",
+            "KZ",
+            "LK",
+            "MM",
+            "NG",
+            "NI",
+            "PH",
+            "RU",
+            "RW",
+            "SA",
+            "SD",
+            "SO",
+            "SY",
+            "TR",
+            "UZ",
+            "VE",
+            "VN"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "745645",
+        "likeCount": "64300",
+        "favoriteCount": "0",
+        "commentCount": "8469"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "85NS5FVHbQYvlw3YYpoC9Pspq_g",
+      "id": "oCxtsTU4BWg",
+      "snippet": {
+        "publishedAt": "2023-06-30T00:00:10Z",
+        "channelId": "UCGnjeahCJW1AF34HBmQTJ-Q",
+        "title": "Shakira, Manuel Turizo - Copa Vacía (Official Video)",
+        "description": "Shakira & Manuel Turizo - Copa Vacía (Official Video)\n\nMusic:\nApple Music: https://SML.lnk.to/CV_/applemusic \nSpotify: https://SML.lnk.to/CV_/spotify \nAmazon: https://SML.lnk.to/CV_/amazonmusicstreaming \nYouTube: https://SML.lnk.to/CV_/youtube \niTunes: https://SML.lnk.to/CV_/itunes \nDeezer: https://SML.lnk.to/CV_/deezer \nTikTok: https://SML.lnk.to/CV_/tiktokusemysound \nPandora: https://SML.lnk.to/CV_/pandora \n\nLyrics:\nLo ves, así\nA este ritmo no puedo seguir Ya no sé qué más hacer\nPara     obtener más de ti \n\nPor qué no quieres\nCuando yo quiero\nEstás más frío\nQue el mes de enero\nPido calor y no das más que hielo, oh \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía\n\nH          ace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber \n\nDe una copa vacía, ah ah \n\nComo si no sintiera nada\nAhora me miras tan diferente\nYo nadando en contra la corriente\nMe tiene en la calle buscando\nCon que llenar     este vacío que se siente\nYo no soy mecánico\nPero trato de arreglarlo y no funciona \nReanimando un corazón que no reacciona \nNo quiero intentarlo con otra persona \n\nPero no quieres\nCuando yo quiero\nEstás más fría\nQue el mes de Enero\nTe doy       calor pero tú siempre hielo \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nT         us besos, son de agua salada \nBebo, y no me calma nada\nTe espero y me desilusionas \nAsí no funciona! \n\nPor qué no quieres\nCuando yo quiero\nEstás más frío\nQue el mes de enero\nPido calor y no das más que hielo, oh \n\nHace rato tengo sed\nDe       ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía ah ah \n\nShakira Shakira, Manuel Turizo \n\n\nOfficial site: h        ttp://www.shakira.com\nShop: https://shakira.store\nTikTok: https://www.tiktok.com/@shakira\nFacebook: http://www.facebook.com/shakira\nTwitter: http://www.twitter.com/shakira\nInstagram: http://www.instagram.com/shakira\n\nShibari mermaid imagery inspired by original photo by Renee Robyn Photography (www.reneerobyn.com) (www.youtube.com/@ReneeRobyn)\n\n#Shakira #ManuelTurizo #CopaVacía\n\nMusic video by Shakira & Manuel Turizo performing Copa Vacía (Official Video). (C) 2023 Ace Entertainment S.ar.l.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oCxtsTU4BWg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oCxtsTU4BWg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oCxtsTU4BWg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oCxtsTU4BWg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oCxtsTU4BWg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "shakiraVEVO",
+        "tags": [
+          "shakira",
+          "copa vacia",
+          "shakira copa vacia",
+          "manuel turizo",
+          "shakira manuel turizo",
+          "shakira manuel turizo copa vacia",
+          "copa vacia shakira",
+          "copa vacia official video",
+          "copa vacia video oficial",
+          "copa vacia letra",
+          "copa vacia lyrics",
+          "shakira 2023",
+          "manuel turizo 2023",
+          "Copa Vacía",
+          "Latin Pop",
+          "Shakira Manuel Turizo",
+          "Sony Music Latin"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Shakira, Manuel Turizo - Copa Vacía (Official Video)",
+          "description": "Shakira & Manuel Turizo - Copa Vacía (Official Video)\n\nMusic:\nApple Music: https://SML.lnk.to/CV_/applemusic \nSpotify: https://SML.lnk.to/CV_/spotify \nAmazon: https://SML.lnk.to/CV_/amazonmusicstreaming \nYouTube: https://SML.lnk.to/CV_/youtube \niTunes: https://SML.lnk.to/CV_/itunes \nDeezer: https://SML.lnk.to/CV_/deezer \nTikTok: https://SML.lnk.to/CV_/tiktokusemysound \nPandora: https://SML.lnk.to/CV_/pandora \n\nLyrics:\nLo ves, así\nA este ritmo no puedo seguir Ya no sé qué más hacer\nPara     obtener más de ti \n\nPor qué no quieres\nCuando yo quiero\nEstás más frío\nQue el mes de enero\nPido calor y no das más que hielo, oh \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía\n\nH          ace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber \n\nDe una copa vacía, ah ah \n\nComo si no sintiera nada\nAhora me miras tan diferente\nYo nadando en contra la corriente\nMe tiene en la calle buscando\nCon que llenar     este vacío que se siente\nYo no soy mecánico\nPero trato de arreglarlo y no funciona \nReanimando un corazón que no reacciona \nNo quiero intentarlo con otra persona \n\nPero no quieres\nCuando yo quiero\nEstás más fría\nQue el mes de Enero\nTe doy       calor pero tú siempre hielo \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nT         us besos, son de agua salada \nBebo, y no me calma nada\nTe espero y me desilusionas \nAsí no funciona! \n\nPor qué no quieres\nCuando yo quiero\nEstás más frío\nQue el mes de enero\nPido calor y no das más que hielo, oh \n\nHace rato tengo sed\nDe       ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía \n\nHace rato tengo sed\nDe ti yo no sé por qué Quedo con ganas de más Queriendo beber\nDe una copa vacía ah ah \n\nShakira Shakira, Manuel Turizo \n\n\nOfficial site: h        ttp://www.shakira.com\nShop: https://shakira.store\nTikTok: https://www.tiktok.com/@shakira\nFacebook: http://www.facebook.com/shakira\nTwitter: http://www.twitter.com/shakira\nInstagram: http://www.instagram.com/shakira\n\nShibari mermaid imagery inspired by original photo by Renee Robyn Photography (www.reneerobyn.com) (www.youtube.com/@ReneeRobyn)\n\n#Shakira #ManuelTurizo #CopaVacía\n\nMusic video by Shakira & Manuel Turizo performing Copa Vacía (Official Video). (C) 2023 Ace Entertainment S.ar.l."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "regionRestriction": {
+          "blocked": ["RU"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "9645342",
+        "likeCount": "721501",
+        "favoriteCount": "0",
+        "commentCount": "34616"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ZAR2SPkU5Z8pulr_mT1Iw7XGMSk",
+      "id": "mG_RN0oB4oE",
+      "snippet": {
+        "publishedAt": "2023-06-29T23:58:08Z",
+        "channelId": "UCzrM_068Odho89mTRrrxqbA",
+        "title": "Peso Pluma x Grupo Frontera - TULUM (Video Oficial)",
+        "description": "Peso Pluma x Grupo Frontera - TULUM (Video Oficial)\n\nDouble P Records©\n\nPeso Pluma \n⋟Instagram -  https://bit.ly/3KxRYMd\n⋟Spotify - http://bit.ly/435v7ii\n⋟TikTok - http://bit.ly/3ZBp3LC\n⋟Apple Music - http://bit.ly/411a92p\n\n\nGroup Frontera:\n⋟Apple Music - https://music.apple.com/us/artist/grupo-frontera/1613772487\n⋟Spotify - https://open.spotify.com/artist/6XkjpgcEsYab502Vr1bBeW\n⋟Instagram - https://www.instagram.com/grupofrontera/\n\n➸Letra\n\nTu eres un diez, pero sigues con ese tipo\nQue no te llega ni a los pies, y ni parece tu tipo\nMuchas fotos de vacaciones por allá en tulum, pero se que tú cora no te hace turum turum\nBebe estabas perdiendo el tiempo, que bueno que llegue a tiempo\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya estás convencida\n\nDile que tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\ny que ya tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\nBebe llego nuestro momento, el te compro un Rolex pero yo te di mi tiempo\nEl tiene mansiones, pero yo en mi apartamento te hice sentir cosas que no se las lleva el viento\nBaby lo siento\n\nPero el que perdió, mami tu fuiste la que gano\nTu eres un piano que nunca toco, y si lejitos nos vamos y así terminamos\nTomando, bailando\nEn una playita sin ropa, mientras tu cuerpo va nadando\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nY que ya tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\nDile que tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\n#pesopluma #grupofrontera #TULUM #doubleprecords",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mG_RN0oB4oE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mG_RN0oB4oE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mG_RN0oB4oE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mG_RN0oB4oE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mG_RN0oB4oE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Peso Pluma",
+        "tags": [
+          "Peso Pluma",
+          "Tulum",
+          "Génesis",
+          "La doble P",
+          "Pura Doble P",
+          "Doble P",
+          "PP",
+          "música Peso Pluma",
+          "musica Peso Pluma",
+          "Peso Pluma music",
+          "Peso Pluma canciones",
+          "corridos",
+          "corridos tumbados",
+          "corridos bélicos",
+          "corridos belicos",
+          "corrido",
+          "las morras",
+          "ella baila sola",
+          "por las noches",
+          "Grupo Frontera",
+          "peso pluma bzrp",
+          "peso pluma bye",
+          "la bebe",
+          "peso pluma la bebe",
+          "peso pluma la bebé",
+          "Frontera",
+          "nata",
+          "nicki nicole",
+          "guadalajara",
+          "el azul",
+          "AMG",
+          "PRC",
+          "compa que le parece esa morra",
+          "bizaraps",
+          "bizarrap",
+          "música"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "es-MX",
+        "localized": {
+          "title": "Peso Pluma x Grupo Frontera - TULUM (Video Oficial)",
+          "description": "Peso Pluma x Grupo Frontera - TULUM (Video Oficial)\n\nDouble P Records©\n\nPeso Pluma \n⋟Instagram -  https://bit.ly/3KxRYMd\n⋟Spotify - http://bit.ly/435v7ii\n⋟TikTok - http://bit.ly/3ZBp3LC\n⋟Apple Music - http://bit.ly/411a92p\n\n\nGroup Frontera:\n⋟Apple Music - https://music.apple.com/us/artist/grupo-frontera/1613772487\n⋟Spotify - https://open.spotify.com/artist/6XkjpgcEsYab502Vr1bBeW\n⋟Instagram - https://www.instagram.com/grupofrontera/\n\n➸Letra\n\nTu eres un diez, pero sigues con ese tipo\nQue no te llega ni a los pies, y ni parece tu tipo\nMuchas fotos de vacaciones por allá en tulum, pero se que tú cora no te hace turum turum\nBebe estabas perdiendo el tiempo, que bueno que llegue a tiempo\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya estás convencida\n\nDile que tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\ny que ya tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\nBebe llego nuestro momento, el te compro un Rolex pero yo te di mi tiempo\nEl tiene mansiones, pero yo en mi apartamento te hice sentir cosas que no se las lleva el viento\nBaby lo siento\n\nPero el que perdió, mami tu fuiste la que gano\nTu eres un piano que nunca toco, y si lejitos nos vamos y así terminamos\nTomando, bailando\nEn una playita sin ropa, mientras tu cuerpo va nadando\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nBaby a mi lo que me faltaba eras tu, tu eres lo mas rico qué hay en el menú\nDile que se despida, que ya tú estás convencida\n\nY que ya tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\nDile que tienes otro hombre, si quieres dile mi nombre\nQue la comida se enfría, cuando se descuida\n\n#pesopluma #grupofrontera #TULUM #doubleprecords"
+        },
+        "defaultAudioLanguage": "es"
+      },
+      "contentDetails": {
+        "duration": "PT3M44S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "5525190",
+        "likeCount": "295699",
+        "favoriteCount": "0",
+        "commentCount": "9350"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "npoS9tmPeOYHr39DbTqhFEOBUGA",
+      "id": "W7h3PtSG1zg",
+      "snippet": {
+        "publishedAt": "2023-06-30T11:00:31Z",
+        "channelId": "UCOVTTjN8BndrmcamYQ8MWxg",
+        "title": "I Found Minecraft's Rarest Items",
+        "description": "Want to build and play with dinosaurs?! Download PUBG MOBILE NOW: https://pubgmobile.live/Dinoground_Carvs #sponsored #PUBGMOBILE #PREHISTORICPANIC\n\nI Collected Every Rare Item In Minecraft\n\n⚠️Start From the Beginning! ⚠️\n • I Reached 1000 LE...  \n\nThis MINECRAFT HARDCORE SERIES is inspired by Wadzee, MumboJumbo, Grian, and Sandiction! Instead of being the Hermitcraft SMP, this series is similar to a MINECRAFT CHALLENGE video because it is HARDCORE MINECRAFT! aCookiegod also with his hardcore Minecraft videos This is similar to my 100 DAYS in MINECRAFT HARDCORE but better!\n\n#minecraft  #hardcore #but",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W7h3PtSG1zg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W7h3PtSG1zg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W7h3PtSG1zg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/W7h3PtSG1zg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/W7h3PtSG1zg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carvs",
+        "tags": [
+          "Carvs Minecraft",
+          "Carvs",
+          "Carves Minecraft",
+          "hardcore minecraft",
+          "minecraft hardcore",
+          "beppo",
+          "wadzee",
+          "ezy minecraft",
+          "sb737",
+          "a cookie god",
+          "acookiegod",
+          "wenzo"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "I Found Minecraft's Rarest Items",
+          "description": "Want to build and play with dinosaurs?! Download PUBG MOBILE NOW: https://pubgmobile.live/Dinoground_Carvs #sponsored #PUBGMOBILE #PREHISTORICPANIC\n\nI Collected Every Rare Item In Minecraft\n\n⚠️Start From the Beginning! ⚠️\n • I Reached 1000 LE...  \n\nThis MINECRAFT HARDCORE SERIES is inspired by Wadzee, MumboJumbo, Grian, and Sandiction! Instead of being the Hermitcraft SMP, this series is similar to a MINECRAFT CHALLENGE video because it is HARDCORE MINECRAFT! aCookiegod also with his hardcore Minecraft videos This is similar to my 100 DAYS in MINECRAFT HARDCORE but better!\n\n#minecraft  #hardcore #but"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT30M21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1147353",
+        "likeCount": "28574",
+        "favoriteCount": "0",
+        "commentCount": "2449"
+      }
+    }
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  }
+}
