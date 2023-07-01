@@ -1,32 +1,13 @@
 import React from "react";
-import { useQuery } from "@tanstack/react-query";
 import Profile from "./Profile";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useQueries } from "@tanstack/react-query";
 
-export default function VideoItem({ getVideoId, isVideo, channelId, keyword }) {
+export default function VideoItem({ getVideoId, isVideo, isLoading, videos }) {
   const navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
   const isSearchList = pathname.startsWith("/q");
-  const {
-    isLoading,
-    isError,
-    error,
-    data: video,
-  } = useQuery({
-    queryKey: ["video"],
-    queryFn: async () => {
-      console.log("fetching....");
-      return fetch("data/ListByKeyword.json").then((res) => res.json());
-    },
-  });
-  if (isLoading) {
-    return <span>Loading...</span>;
-  }
-  if (isError) {
-    return <span>Error: {error.message}</span>;
-  }
-
   const handleNavigate = (e) => {
     const videoId = e.currentTarget.getAttribute("value");
     getVideoId(videoId);
@@ -66,7 +47,7 @@ export default function VideoItem({ getVideoId, isVideo, channelId, keyword }) {
         "loading...."
       ) : (
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4">
-          {video.items.map((item) => (
+          {videos.items.map((item) => (
             <li key={item.id.videoId} value={item.id.videoId} onClick={handleNavigate} className="w-full max-w-96 hover:cursor-pointer">
               <img
                 src={item.snippet.thumbnails.high.url}
@@ -74,7 +55,7 @@ export default function VideoItem({ getVideoId, isVideo, channelId, keyword }) {
                 className="mb-2 object-cover h-48 w-full lg:w-96 rounded-xl transition-[border-radius] duration-150 ease-out hover:ease-in hover:rounded-none"
               />
               <div className="flex">
-                <Profile {...{ channelId: item.snippet.channelId }} />
+                <Profile />
                 <div className="text-slate-700 truncate ">
                   <p>{item.snippet.channelId}</p>
                   <h2 className="font-medium truncate  ">{item.snippet.title}</h2>

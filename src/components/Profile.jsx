@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 export default function Profile({ isVideo, channelId }) {
-  const [profile, setProfile] = useState(null);
   const {
     isLoading,
     isError,
@@ -12,7 +11,7 @@ export default function Profile({ isVideo, channelId }) {
     queryKey: ["channelById"],
     queryFn: async () => {
       console.log("fetching....");
-      return fetch("data/ChannelById.json").then((res) => res.json());
+      return fetch("/data/ChannelById.json").then((res) => res.json());
     },
   });
   if (isLoading) {
