@@ -1,28 +1,55 @@
 import React from "react";
 import Profile from "./Profile";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
+import { getChannelById } from "../api/getChannelById";
+import { getListByKeyword } from "../api/getListByKeyword";
 
-export default function VideoItem({ getVideoChannel, getVideoId, isVideo, videoQueryDataArray, isRelatedList }) {
+export default function VideoItemcopy({ getVideoId, isVideo }) {
   const navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
   const isSearchList = pathname.startsWith("/q");
-
   const handleNavigate = (e) => {
     const videoId = e.currentTarget.getAttribute("value");
-    const targetChannelId = e.currentTarget.getAttribute("data-channelid");
     getVideoId(videoId);
-    getVideoChannel(targetChannelId);
     if (isSearchList) {
       navigate(`/id/${videoId}`);
     } else {
       navigate(`/id/${videoId}`);
     }
   };
+
+  const videoQuery = useQuery({
+    queryKey: ["video"],
+    queryFn: getListByKeyword,
+  });
+  const videoChannelQuery = useQuery({
+    queryKey: ["channel"],
+    queryFn: getChannelById,
+  });
+
+  // Access the data from the query result
+  const videoQueryData = videoQuery.data;
+
+  // Create an array of objects with videoId and channelId
+  const videoQueryDataArray = videoQueryData
+    ? videoQueryData.map((item) => ({
+        videoId: item.id.videoId,
+        channelId: item.snippet.channelId,
+        channelTitle: item.snippet.channelTitle,
+        thumbnail: item.snippet.thumbnails.high.url,
+        title: item.snippet.title,
+        publishTime: item.snippet.publishTime,
+        etag: item.etag,
+      }))
+    : [];
+  console.log(videoQueryDataArray);
   const today = new Date();
   const getDaysAfter = (publishTime) => {
     const publishDate = new Date(publishTime);
     const timeDiff = Math.abs(today.getTime() - publishDate.getTime());
+
     if (timeDiff < 86400000) {
       // Less than a day (24 hours)
       const hours = Math.floor(timeDiff / (1000 * 3600)); // Milliseconds in an hour: 1000ms * 60s * 60min
@@ -41,29 +68,11 @@ export default function VideoItem({ getVideoChannel, getVideoId, isVideo, videoQ
       return `${yearsAfter} years ago`;
     }
   };
-  if (isRelatedList) {
-    return (
-      <>
+  return (
+    <div>
+      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4">
         {videoQueryDataArray.map((item) => (
-          <div key={item.etag} value={item.videoId} className="flex gap-x-2 mb-2 cursor-pointer" onClick={handleNavigate}>
-            <img
-              src={item.thumbnail}
-              alt={item.title}
-              className="mb-2 object-cover w-1/3 rounded-xl transition-[border-radius] duration-150 ease-out hover:ease-in hover:rounded-none"
-            />
-            <div className="flex flex-col text-slate-700 truncate">
-              <h2 className="font-medium truncate">{item.title}</h2>
-              <Profile isRelatedList={isRelatedList} channelId={item.channelId} />
-            </div>
-          </div>
-        ))}
-      </>
-    );
-  } else {
-    return (
-      <>
-        {videoQueryDataArray.map((item) => (
-          <li key={item.etag} value={item.videoId} onClick={handleNavigate} data-channelid={item.channelId} className="w-full max-w-96 hover:cursor-pointer">
+          <li key={item.etag} value={item.videoId} onClick={handleNavigate} className="w-full max-w-96 hover:cursor-pointer">
             <img
               src={item.thumbnail}
               alt={item.title}
@@ -81,7 +90,7 @@ export default function VideoItem({ getVideoChannel, getVideoId, isVideo, videoQ
             </div>
           </li>
         ))}
-      </>
-    );
-  }
+      </ul>
+    </div>
+  );
 }

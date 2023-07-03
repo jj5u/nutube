@@ -1,37 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import VideoItem from "./VideoItem";
 import { useQuery } from "@tanstack/react-query";
-import Profile from "./Profile";
-export default function RelatedList() {
-  const {
-    isLoading,
-    isError,
-    error,
-    data: relatedVideo,
-  } = useQuery({
-    queryKey: ["relatedVideo"],
-    queryFn: async () => {
-      console.log("fetching....");
-      return fetch("/data/ListByRelatedVideos.json").then((res) => res.json());
-    },
-  });
-  if (isLoading) {
-    return <span>Loading...</span>;
-  }
-  if (isError) {
-    return <span>Error: {error.message}</span>;
-  }
+import { getListByRelatedVideos } from "../api/getListByRelatedVideos";
 
+export default function RelatedList({ keyword }) {
+  const [video, setVideo] = useState("");
+  const relatedvideoQuery = useQuery({
+    queryKey: ["video"],
+    queryFn: () => getListByRelatedVideos(),
+  });
+
+  // Access the data from the query result
+  const relatedvideoQueryData = relatedvideoQuery.data;
+
+  let relatedvideoQueryDataArray = [];
+  // Create an array of objects with videoId and channelId
+
+  relatedvideoQueryDataArray = relatedvideoQueryData
+    ? relatedvideoQueryData.map((item) => ({
+        videoId: item.id,
+        channelId: item.snippet.channelId,
+        channelTitle: item.snippet.channelTitle,
+        thumbnail: item.snippet.thumbnails.high.url,
+        title: item.snippet.title,
+        publishTime: item.snippet.publishTime,
+        etag: item.etag,
+      }))
+    : [];
+  let isRelatedList = true;
   return (
     <div>
-      {isLoading
-        ? "loading...."
-        : relatedVideo.items.map((item) => (
-            <div key={item.id.videoId}>
-              <img src={item.snippet.thumbnails.default.url} alt={item.snippet.title} />
-              <h2>{item.snippet.title}</h2>
-              <Profile />
-            </div>
-          ))}
+      <ul className="grid grid-cols-1 ">
+        {relatedvideoQueryDataArray.length > 0 ? (
+          <VideoItem getVideoId={setVideo} videoQueryDataArray={relatedvideoQueryDataArray} isRelatedList={isRelatedList} />
+        ) : (
+          <p>Loading...</p>
+        )}
+      </ul>
     </div>
   );
 }

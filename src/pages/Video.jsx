@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
 import RelatedList from "../components/RelatedList";
 import Profile from "../components/Profile";
 
 export default function Video() {
-  const { videoId } = useParams();
+  let { videoId } = useParams();
   const isVideo = true;
   return (
     <>
