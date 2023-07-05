@@ -20,11 +20,11 @@ const router = createBrowserRouter([
         element: <VideoList />,
       },
       {
-        path: "q/:query",
+        path: "/q/:query",
         element: <SearchResult />,
       },
       {
-        path: "id/:videoId",
+        path: "/channel/:channelId/id/:videoId",
         element: <Video />,
       },
     ],

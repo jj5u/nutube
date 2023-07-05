@@ -2,22 +2,17 @@ import React from "react";
 import Profile from "./Profile";
 import { useNavigate, useLocation } from "react-router-dom";
 
-export default function VideoItem({ getVideoChannel, getVideoId, isVideo, videoQueryDataArray, isRelatedList }) {
+export default function VideoItem({ getVideoId, isVideo, videoQueryDataArray, isRelatedList }) {
   const navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
-  const isSearchList = pathname.startsWith("/q");
+  const isSearchList = pathname.startsWith("q/");
 
   const handleNavigate = (e) => {
     const videoId = e.currentTarget.getAttribute("value");
     const targetChannelId = e.currentTarget.getAttribute("data-channelid");
     getVideoId(videoId);
-    getVideoChannel(targetChannelId);
-    if (isSearchList) {
-      navigate(`/id/${videoId}`);
-    } else {
-      navigate(`/id/${videoId}`);
-    }
+    navigate(`/channel/${targetChannelId}/id/${videoId}`);
   };
   const today = new Date();
   const getDaysAfter = (publishTime) => {
@@ -72,7 +67,6 @@ export default function VideoItem({ getVideoChannel, getVideoId, isVideo, videoQ
             <div className="flex">
               <Profile channelId={item.channelId} />
               <div className="text-slate-700 truncate">
-                <p>{item.channelId}</p>
                 <h2 className="font-medium truncate">{item.title}</h2>
                 <p className="text-sm">{item.channelTitle}</p>
                 <p className="text-sm">{getDaysAfter(item.publishTime)}</p>

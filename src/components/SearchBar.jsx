@@ -17,8 +17,7 @@ export default function SearchBar({ getKeyword }) {
     e.preventDefault();
     getKeyword(text);
     setText("");
-    // Check if the current location is the search results page
-    if (location.pathname.startsWith("/q/")) {
+    if (location.pathname === "/q") {
       // Update the URL without reloading the page
       navigate(`/q/${text}`, { replace: true });
     } else {
@@ -35,7 +34,7 @@ export default function SearchBar({ getKeyword }) {
     }
   };
   return (
-    <div className="bg-white sticky top-0 ">
+    <div className="bg-white sticky top-0 " style={{ zIndex: 999 }}>
       <nav className="flex items-center border p-2 lg:p-4">
         <div className="flex items-center gap-x-2 cursor-pointer" onClick={handleLogoClick}>
           <img src={logoUrl} alt="logo-img" style={{ width: "36px", height: "36px" }} />

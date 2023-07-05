@@ -6,7 +6,7 @@ import { getListByRelatedVideos } from "../api/getListByRelatedVideos";
 export default function RelatedList({ keyword }) {
   const [video, setVideo] = useState("");
   const relatedvideoQuery = useQuery({
-    queryKey: ["video"],
+    queryKey: ["video", keyword],
     queryFn: () => getListByRelatedVideos(),
   });
 
