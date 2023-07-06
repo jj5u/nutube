@@ -11,7 +11,7 @@ export default function Root() {
   return (
     <div>
       <SearchBar getKeyword={setKey} />
-      <div className="p-2 lg:p-4">
+      <div className="p-2  mx-auto lg:p-4 xl:max-w-7xl">
         <Outlet keyword={keyword} />
       </div>
     </div>

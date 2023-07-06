@@ -38,7 +38,7 @@ export default function SearchBar({ getKeyword }) {
       <nav className="flex items-center border p-2 lg:p-4">
         <div className="flex items-center gap-x-2 cursor-pointer" onClick={handleLogoClick}>
           <img src={logoUrl} alt="logo-img" style={{ width: "36px", height: "36px" }} />
-          <span className="font-bold">nuTube</span>
+          <span className="font-bold hidden sm:flex">nuTube</span>
         </div>
         <form action="submit" onSubmit={handleSubmit} className=" flex ml-auto">
           <div className="relative flex items-center gap-x-1 border border-slate-200 rounded-tr-2xl rounded-br-2xl rounded-tl-2xl rounded-bl-2xl shadow-inner  ">
