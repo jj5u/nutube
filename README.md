@@ -40,6 +40,16 @@ Nutube :
 ## Articles/Bookmarks:
 
 [Embed a YouTube video with 16:9 aspect ratio and full-width](https://www.ankursheel.com/blog/full-width-you-tube-video-embed)
+Netlify Deploying Errors:
+
+- setting environment variables when deploying from Netlify
+
+[Environment variables overview](https://docs.netlify.com/environment-variables/overview/?_gl=1*v0qftt*_gcl_au*MTkxNzMxNzAzLjE2ODY4MzQ0Njk.&_ga=2.55121387.139584373.1688573123-817508246.1686834470)
+
+- disabling warnings as errors
+
+[Treating warnings as errors because process.env.CI = true | bobbyhadz](https://bobbyhadz.com/blog/treating-warnings-as-errors-because-process-env-ci-true)
+
 
 ## Technical Notes from the Project:
 
@@ -65,25 +75,12 @@ Nutube :
         If you encounter CORS errors while fetching data from an API, you may need to check the API server's CORS configuration and ensure that it allows requests from your domain. If you don't have control over the API server, you may need to contact the server administrator or consider alternative solutions such as proxying the API request through your own server to bypass CORS restrictions.
         
 
-## Data flows:
+## Designed Data Flows:
 
-### First:
+![component](https://file.notion.so/f/s/f9fa8a51-2cde-4cd6-ab61-c7d1e8674c4d/Untitled.png?id=5d11485e-4e1a-4c83-928f-f9fb9f537e66&table=block&spaceId=b89e3ca2-007c-408b-bae1-3393cffe09de&expirationTimestamp=1688774400000&signature=l7BgaXiiwCMPnmxklvJe4LXqe88YvwBwJ72NGHrSWGc&downloadName=Untitled.png)
+![componenet-data-flow](https://file.notion.so/f/s/31f67b49-a45c-4af3-89d1-89bd50b60e0c/Untitled.png?id=3ee61cc3-615c-436c-96a5-1cbedcee69a6&table=block&spaceId=b89e3ca2-007c-408b-bae1-3393cffe09de&expirationTimestamp=1688774400000&signature=UEe5NtwuvYB6yI77haaQPLcDxU0Y7dSKrvyveaAC6uc&downloadName=Untitled.png)
+![data-flow2](https://file.notion.so/f/s/477739d5-aee3-4364-884c-ce6c287b5115/Untitled.png?id=13ece1ba-9ff3-4d5a-a1f4-77187389bab3&table=block&spaceId=b89e3ca2-007c-408b-bae1-3393cffe09de&expirationTimestamp=1688774400000&signature=mWJF0SKSga1m8G09SYnBQKApvXRh3Y4eVHcfUiYIovQ&downloadName=Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9fa8a51-2cde-4cd6-ab61-c7d1e8674c4d/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31f67b49-a45c-4af3-89d1-89bd50b60e0c/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/477739d5-aee3-4364-884c-ce6c287b5115/Untitled.png)
-
-Netlify Deploying Errors:
-
-- setting environment variables when deploying from Netlify
-
-[Environment variables overview](https://docs.netlify.com/environment-variables/overview/?_gl=1*v0qftt*_gcl_au*MTkxNzMxNzAzLjE2ODY4MzQ0Njk.&_ga=2.55121387.139584373.1688573123-817508246.1686834470)
-
-- disabling warnings as errors
-
-[Treating warnings as errors because process.env.CI = true | bobbyhadz](https://bobbyhadz.com/blog/treating-warnings-as-errors-because-process-env-ci-true)
 
 ## 완료하고
 
